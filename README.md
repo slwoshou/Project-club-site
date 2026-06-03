@@ -59,9 +59,9 @@ Ouvrir [http://localhost:5173](http://localhost:5173)
 
 | Prénom | Nom | Rôle |
 |--------|-----|------|
-| ... | ... | ... |
-| ... | ... | ... |
-| ... | ... | ... |
-| ... | ... | ... |
+| Abdellah | Miftah Idrissi | ... |
+| Saad |  | M'sarbabe |
+| Salaheddine | El-Achaoui | ... |
+| Mohamed Salama | Elsayed Elsemeen | ... |
 | ... | ... | ... |
 # Project-club-site
