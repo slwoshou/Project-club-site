@@ -1,4 +1,4 @@
-// App.jsx — CDC §1.3 : React Router pour la navigation entre pages
+// App.jsx: React Router pour la navigation entre pages
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header     from "./components/Header";
 import Footer     from "./components/Footer";
@@ -12,7 +12,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="app">
-        {/* CDC §2.2 : barre de navigation */}
+        {/*  barre de navigation */}
         <Header />
 
         {/* Pages */}
@@ -27,7 +27,7 @@ export default function App() {
           <Route path="*"            element={<Home />} />
         </Routes>
 
-        {/* CDC §2.2 : footer avec informations de contact */}
+        {/*  footer avec informations de contact */}
         <Footer />
       </div>
     </BrowserRouter>
