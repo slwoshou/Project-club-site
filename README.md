@@ -63,5 +63,4 @@ Ouvrir [http://localhost:5173](http://localhost:5173)
 | Saad | M'sarbabe | |
 | Salaheddine | El-Achaoui | ... |
 | Mohamed Salama | Elsayed Elsemeen | ... |
-| ... | ... | ... |
 # Project-club-site
