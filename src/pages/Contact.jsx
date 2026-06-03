@@ -1,4 +1,4 @@
-// Contact.jsx — informations de contact du club
+// Contact.jsx: informations de contact du club
 import { useState } from "react";
 import { clubInfo } from "../data";
 
