@@ -22,7 +22,9 @@ club-uni/
     └── pages/
         ├── Home.jsx          # CDC §2.1 : page d'accueil complète
         ├── Evenements.jsx    # CDC §2.4 : liste des événements
-        └── Contact.jsx       # Formulaire de contact
+        ├── Contact.jsx       # Formulaire de contact
+        └── Galerie.jsx       # Galerie des evenements et membres
+          
 ```
 
 ## ✅ Conformité CDC
