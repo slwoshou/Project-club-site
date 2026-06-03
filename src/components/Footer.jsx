@@ -1,4 +1,4 @@
-// Footer.jsx — CDC §2.2 : footer avec informations de contact
+// Footer.jsx: footer avec informations de contact
 import { Link } from "react-router-dom";
 import { clubInfo } from "../data";
 
@@ -24,7 +24,7 @@ export default function Footer() {
           <Link to="/contact">Contact</Link>
         </div>
 
-        {/* Contact — §2.2 : informations de contact dans le footer */}
+        {/* Contact: informations de contact dans le footer */}
         <div className="footer-col">
           <h4 className="footer-col-title">Contact</h4>
           <a href={`mailto:${clubInfo.email}`}>✉ {clubInfo.email}</a>
