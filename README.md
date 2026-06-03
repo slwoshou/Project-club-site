@@ -1,4 +1,4 @@
-# 💻 Enactus FSBM
+#  Enactus FSBM
 
 > Mini-projet React — Module Programmation Web 2 | S4 2025-2026  
 > Prof. M. Ghazouani — Université Hassan II de Casablanca
@@ -27,28 +27,28 @@ club-uni/
           
 ```
 
-## ✅ Conformité CDC
+##  Conformité CDC
 
-| Section | Exigence | Statut |
-|---------|----------|--------|
-| §1.3 | JavaScript ES6+, ReactJS | ✅ |
-| §1.3 | React Router | ✅ |
-| §1.3 | useState, useEffect | ✅ |
-| §2.1 | Nom, logo, description, objectif | ✅ |
-| §2.1 | Liste des membres principaux | ✅ |
-| §2.1 | Liste des événements | ✅ |
-| §2.1 | Bouton "Rejoindre le club" | ✅ |
-| §2.2 | Barre de navigation | ✅ |
-| §2.2 | Menu adapté mobile | ✅ |
-| §2.2 | Footer avec contacts | ✅ |
-| §2.3 | Responsive & ergonomique | ✅ |
-| §2.3 | Animation survol des cartes | ✅ |
-| §2.4 | Événements sous forme de liste | ✅ |
-| §2.5 | Adapté mobiles et tablettes | ✅ |
-| §2.5 | Couleurs et contrastes accessibles | ✅ |
-| §3   | Pas de backend — données statiques | ✅ |
+| Section | Exigence | 
+|---------|----------|
+| §1.3 | JavaScript ES6+, ReactJS 
+| §1.3 | React Router 
+| §1.3 | useState, useEffect 
+| §2.1 | Nom, logo, description, objectif 
+| §2.1 | Liste des membres principaux 
+| §2.1 | Liste des événements 
+| §2.1 | Bouton "Rejoindre le club" 
+| §2.2 | Barre de navigation 
+| §2.2 | Menu adapté mobile 
+| §2.2 | Footer avec contacts 
+| §2.3 | Responsive & ergonomique 
+| §2.3 | Animation survol des cartes 
+| §2.4 | Événements sous forme de liste 
+| §2.5 | Adapté mobiles et tablettes 
+| §2.5 | Couleurs et contrastes accessibles 
+| §3   | Pas de backend — données statiques 
 
-## 🚀 Lancer le projet
+##  Lancer le projet
 
 ```bash
 npm install
