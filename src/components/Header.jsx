@@ -1,4 +1,4 @@
-// Header.jsx — CDC §2.2 : navbar + lien accueil + menu mobile
+// Header.jsx: navbar + lien accueil + menu mobile
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { clubInfo } from "../data";
@@ -18,7 +18,7 @@ export default function Header() {
           </div>
         </Link>
 
-        {/* Navigation desktop — §2.2 : lien vers l'accueil */}
+        {/* Navigation desktop: lien vers l'accueil */}
         <nav className={`nav ${menuOuvert ? "nav--open" : ""}`} aria-label="Navigation principale">
           <NavLink to="/"        className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} onClick={() => setMenuOuvert(false)}>Accueil</NavLink>
           <NavLink to="/evenements" className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} onClick={() => setMenuOuvert(false)}>Événements</NavLink>
@@ -28,7 +28,7 @@ export default function Header() {
           <NavLink to="/Feedback"        className={({ isActive }) => "nav-link" + (isActive ? " active" : "")} onClick={() => setMenuOuvert(false)}>Feedback</NavLink>
         </nav>
 
-        {/* Burger mobile — §2.2 : menu adapté mobile */}
+        {/* Burger mobile: menu adapté mobile */}
         <button
           className={`burger ${menuOuvert ? "burger--open" : ""}`}
           onClick={() => setMenuOuvert(!menuOuvert)}
