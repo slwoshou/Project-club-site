@@ -1,4 +1,4 @@
-// Galerie.jsx — Galerie photos du club avec lightbox
+// Galerie.jsx: Galerie photos du club avec lightbox
 import { useState, useEffect, useCallback } from "react";
 import { photos, categoriesGalerie } from "../data";
 
