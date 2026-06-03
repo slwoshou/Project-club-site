@@ -1,4 +1,4 @@
-// EventCard.jsx — CDC §2.3 : animation légère au survol des cartes
+// EventCard.jsx : animation légère au survol des cartes
 export default function EventCard({ event }) {
   const dateObj = new Date(event.date);
   const jour = dateObj.toLocaleDateString("fr-FR", { day: "2-digit" });
@@ -13,7 +13,7 @@ export default function EventCard({ event }) {
   }[event.categorie] ?? "badge--gray";
 
   return (
-    <article className="event-card">          {/* animation hover via CSS §2.3 */}
+    <article className="event-card">          {/* animation hover via CSS*/}
       <div className="event-card-date">
         <span className="date-jour">{jour}</span>
         <span className="date-mois">{mois}</span>
