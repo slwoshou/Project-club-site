@@ -3,7 +3,7 @@
 > Mini-projet React — Module Programmation Web 2 | S4 2025-2026  
 > Prof. M. Ghazouani — Université Hassan II de Casablanca
 
-## 🗂 Structure du projet
+##  Structure du projet
 
 ```
 club-uni/
@@ -57,7 +57,7 @@ npm run dev
 
 Ouvrir [http://localhost:5173](http://localhost:5173)
 
-## 👥 Groupe
+##  Groupe
 
 | Prénom | Nom |
 |--------|-----|
