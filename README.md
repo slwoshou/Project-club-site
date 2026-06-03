@@ -1,4 +1,4 @@
-# 💻 Club Informatique & IA — FSBM
+# 💻 Enactus FSBM
 
 > Mini-projet React — Module Programmation Web 2 | S4 2025-2026  
 > Prof. M. Ghazouani — Université Hassan II de Casablanca
