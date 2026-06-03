@@ -1,4 +1,4 @@
-// Home.jsx — CDC §2.1 : Page d'accueil complète
+// Home.jsx : Page d'accueil complète
 // • Nom, logo, description et objectif du club
 // • Liste des membres principaux
 // • Liste des événements ou activités prévues
@@ -9,12 +9,12 @@ import { clubInfo, membres, evenements } from "../data";
 import EventCard from "../components/EventCard";
 
 export default function Home() {
-  // useState — CDC §1.3
+  // useState
   const [adhesionOuverte, setAdhesionOuverte] = useState(false);
   const [form, setForm]   = useState({ prenom: "", nom: "", email: "", filiere: "" });
   const [envoye, setEnvoye] = useState(false);
 
-  // useEffect — CDC §1.3 : ferme la modale avec Escape
+  // useEffect : ferme la modale avec Escape
   useEffect(() => {
     const fermer = (e) => { if (e.key === "Escape") setAdhesionOuverte(false); };
     document.addEventListener("keydown", fermer);
@@ -36,7 +36,7 @@ export default function Home() {
   return (
     <main className="home">
 
-      {/* ── HERO : nom, logo, description, objectif ── */}
+      {/*HERO : nom, logo, description, objectif ── */}
       <section className="hero" aria-labelledby="hero-titre">
         <div className="hero-content">
           <div className="hero-badge">
@@ -47,7 +47,7 @@ export default function Home() {
           <blockquote className="hero-objectif">
             <strong>Notre objectif :</strong> {clubInfo.objectif}
           </blockquote>
-          {/* CDC §2.1 : Bouton "Rejoindre le club" */}
+          {/* Bouton "Rejoindre le club" */}
           <div className="hero-actions">
             <button
               id="rejoindre"
@@ -66,7 +66,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── MEMBRES : liste des membres principaux — CDC §2.1 ── */}
+      {/*  MEMBRES : liste des membres principaux */}
       <section className="section" aria-labelledby="membres-titre">
         <div className="container">
           <div className="section-header">
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
           <div className="membres-grid">
             {membres.map((m) => (
-              <article key={m.id} className="membre-card">   {/* hover animation §2.3 */}
+              <article key={m.id} className="membre-card">   {/* hover animation */}
                 <div className="membre-avatar" style={{ background: m.couleur }}>
                   {m.initiales}
                 </div>
@@ -89,14 +89,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── ÉVÉNEMENTS : aperçu — CDC §2.1 ── */}
+      {/* ÉVÉNEMENTS : aperçu*/}
       <section className="section section-alt" aria-labelledby="events-titre">
         <div className="container">
           <div className="section-header">
             <h2 id="events-titre" className="section-titre">Prochains événements</h2>
             <p className="section-sous-titre">Activités et rencontres à venir</p>
           </div>
-          {/* CDC §2.4 : affichage sous forme de liste */}
+          {/*affichage sous forme de liste */}
           <div className="events-list">
             {aperçuEvents.map((ev) => (
               <EventCard key={ev.id} event={ev} />
@@ -110,7 +110,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── MODALE ADHÉSION ── */}
+      {/* MODALE ADHÉSION*/}
       {adhesionOuverte && (
         <div
           className="modal-overlay"
