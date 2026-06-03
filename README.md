@@ -13,15 +13,15 @@ club-uni/
 └── src/
     ├── main.jsx              # Point d'entrée React DOM
     ├── App.jsx               # React Router + assemblage
-    ├── data.js               # Données statiques (pas de backend - CDC §3)
+    ├── data.js               # Données statiques (pas de backend )
     ├── styles.css            # Styles globaux responsives
     ├── components/
-    │   ├── Header.jsx        # CDC §2.2 : navbar + menu burger mobile
-    │   ├── Footer.jsx        # CDC §2.2 : footer avec contacts
-    │   └── EventCard.jsx     # CDC §2.3 : carte avec animation survol
+    │   ├── Header.jsx        # navbar + menu burger mobile
+    │   ├── Footer.jsx        # footer avec contacts
+    │   └── EventCard.jsx     # carte avec animation survol
     └── pages/
-        ├── Home.jsx          # CDC §2.1 : page d'accueil complète
-        ├── Evenements.jsx    # CDC §2.4 : liste des événements
+        ├── Home.jsx          # page d'accueil complète
+        ├── Evenements.jsx    # liste des événements
         ├── Contact.jsx       # Formulaire de contact
         ├── Galerie.jsx       # Galerie des evenements et membres
         └── Feedback.jsx      # Espace d'évaluation dynamique
@@ -32,22 +32,22 @@ club-uni/
 
 | Section | Exigence | 
 |---------|----------|
-| §1.3 | JavaScript ES6+, ReactJS 
-| §1.3 | React Router 
-| §1.3 | useState, useEffect 
-| §2.1 | Nom, logo, description, objectif 
-| §2.1 | Liste des membres principaux 
-| §2.1 | Liste des événements 
-| §2.1 | Bouton "Rejoindre le club" 
-| §2.2 | Barre de navigation 
-| §2.2 | Menu adapté mobile 
-| §2.2 | Footer avec contacts 
-| §2.3 | Responsive & ergonomique 
-| §2.3 | Animation survol des cartes 
-| §2.4 | Événements sous forme de liste 
-| §2.5 | Adapté mobiles et tablettes 
-| §2.5 | Couleurs et contrastes accessibles 
-| §3   | Pas de backend — données statiques 
+| 1.3 | JavaScript ES6+, ReactJS 
+| 1.3 | React Router 
+| 1.3 | useState, useEffect 
+| 2.1 | Nom, logo, description, objectif 
+| 2.1 | Liste des membres principaux 
+| 2.1 | Liste des événements 
+| 2.1 | Bouton "Rejoindre le club" 
+| 2.2 | Barre de navigation 
+| 2.2 | Menu adapté mobile 
+| 2.2 | Footer avec contacts 
+| 2.3 | Responsive & ergonomique 
+| 2.3 | Animation survol des cartes 
+| 2.4 | Événements sous forme de liste 
+| 2.5 | Adapté mobiles et tablettes 
+| 2.5 | Couleurs et contrastes accessibles 
+| 3   | Pas de backend — données statiques 
 
 ##  Lancer le projet
 
