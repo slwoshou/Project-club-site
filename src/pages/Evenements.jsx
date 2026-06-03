@@ -1,4 +1,4 @@
-// Evenements.jsx — CDC §2.4 : affichage des événements sous forme de liste
+// Evenements.jsx: affichage des événements sous forme de liste
 import { useState } from "react";    // CDC §1.3 : useState
 import { evenements } from "../data";
 import EventCard from "../components/EventCard";
@@ -23,7 +23,7 @@ export default function Evenements() {
 
         
 
-        {/* Liste des événements — CDC §2.4 */}
+        {/* Liste des événements */}
         <div className="events-list">
           {liste.length > 0 ? (
             liste.map((ev) => <EventCard key={ev.id} event={ev} />)
