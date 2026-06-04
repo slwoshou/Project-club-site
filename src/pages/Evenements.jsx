@@ -1,12 +1,12 @@
 // Evenements.jsx: affichage des événements sous forme de liste
-import { useState } from "react";    // CDC §1.3 : useState
+import { useState } from "react";    // useState
 import { evenements } from "../data";
 import EventCard from "../components/EventCard";
 
 const CATEGORIES = ["Tous", ...new Set(evenements.map((e) => e.categorie))];
 
 export default function Evenements() {
-  // useState pour filtrer les événements — CDC §1.3
+  // useState pour filtrer les événements 
   const [filtre, setFiltre] = useState("Tous");
 
   const liste = filtre === "Tous"
